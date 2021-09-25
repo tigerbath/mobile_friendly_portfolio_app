@@ -107,12 +107,36 @@
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 20%;
-    height: 50%;
     border: 1px solid #0094c6;
     background-color: #005e7c;
     margin: 10px;
     padding: 80px;
 }
+
+.flex-container > .horiseon {
+    color: white;
+    position: relative;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    border: 5px solid #0094c6;
+    margin: 50px;
+    padding: 80px;
+    padding-inline: 50px;
+}
+
+.horiseon-text {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #0094c6;
+
+}
+
+.horiseon-text a:hover {
+    opacity: 70%;
+}
+
+
 
 /* Media queeries */
 
