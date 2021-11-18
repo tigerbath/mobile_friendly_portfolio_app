@@ -1,42 +1,46 @@
 # mobile_friendly_portfolio_app
+
 A web app built with advanced CSS &amp; HTML to feature portfolios elegantly both on desktop and mobile.
 
 # Project brief & notes
 
 I have been tasked to make a online portfolio page with information about myself, my recent works, and contact links. The page is to have great functionality, and perform well on multiple device platforms.
 
-
 ## Link to Github pages
 
-<a href= "https://tigerbath.github.io/refactoring_marketing_agency_site">Link to my git pages</a>
+<a href= "https://tigerbath.github.io/mobile_friendly_portfolio_app">Link to my git pages</a>
 
 ## What i've done
 
-* improved semantic HTML 
-* removed unneeded HTML & CSS
-* added descriptives to image elements 
+generated a portfolio with the following sections
 
+- about me
+- projects
+- links to socials
+- contact information
+
+## Techniques used
+
+- media queries
+- flexbox
+- pseudo-classes
+- wireframing
+- font styling
+- using matching colour ways for attractive site
 
 ## Technologies used
 
-* HTML
-* CSS
+- HTML
+- CSS
 
 ## Screenshots
 
+<img src="Assets\images\readme-images\Homepage.png"
+alt="screenshot of original wireframe">
 
-<img src="assets\images\Horiseon.png"
-alt="screenshot of Horiseon site after changes">
-* _Screenshot of Horiseon site after changes_
+- _Screenshot of original wireframe_
 
-<img src="assets\images\Refactoring CSS 2.PNG"
-alt="screenshot of CSS Style sheet">
-* _Screenshot of CSS style sheet ammendments_
+<img src="Assets\images\readme-images\Matthew Palmer P.png"
+alt="screenshot of created website">
 
-<img src="assets\images\Refactoring CSS 3.PNG"
-alt="screenshot of CSS Style sheet">
-* _Screenshot of CSS style sheet ammendments_
-
-<img src="assets\images\Refactoring CSS.PNG"
-alt="screenshot of style sheet">
-* _Screenshot of CSS style sheet ammendments_
+- _Screenshot of created site_
