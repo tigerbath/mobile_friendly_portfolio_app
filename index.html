@@ -7,73 +7,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Assets/css/reset.css">
     <link rel="stylesheet" href="Assets/css/styles.css">
+    <!-- font-awesome -->
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      data-auto-a11y="true"
+    ></script>
     <title>Matthew Palmer Portfolio</title>
 </head>
 <body>
-    <!-- header with social links -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light static-top p-3 marginleft-1">
-        <img src="Assets/images/shipswheelandtextwhite2.jpg" alt="Matthew Palmer" height="120">
-        </a>
-      <div class="container">
-          
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#my-projects">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#about-me">About Me</a>
-              </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Socials
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="https://www.linkedin.com/in/matthew-palmer-a13aab156/">Linkedin</a></li>
-                <li><a class="dropdown-item" href="https://github.com/tigerbath">Github</a></li>
-                <li><a class="dropdown-item" href="https://www.instagram.com/sailingby_/">Instagram</a></li>
-                <li>
-        
-                </li>
-                
-              </ul>
-            </li>
-          </ul>
-        </div>
+    <!-- nav with social links -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img class="navbar-brand logo" src="Assets/images/shipswheelandtextwhite2.jpg" alt="Matthew Palmer Software Developer">
+    
+      <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item mx-1">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link about-me" href="#about-me">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link socials" href="#my-projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link socials" href="http://github.com/tigerbath">Github</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
     <header class="card bg-dark text-white">
-        <img class="card-img" src="https://lh3.google.com/u/0/d/0B4dTyX-KCtledUxDWWN6a213MHM=w1920-h880-iv2?resourcekey=0-GFjNhYhfG04PZgR8vsu8qQ" alt="Card image">
+        <img class="card-img img-fluid" src="https://lh3.google.com/u/0/d/0B4dTyX-KCtledUxDWWN6a213MHM=w1920-h880-iv2?resourcekey=0-GFjNhYhfG04PZgR8vsu8qQ" alt="Card image">
         <div class="card-img-overlay">
         <div class="text-center my-5">
-            <img class="img-fluid rounded-circle mb-2" src="Assets/images/meonthebeach.jpg" alt="..." />
+            <img class="img-fluid rounded-circle mb-2 selfie" src="Assets/images/meonthebeach.jpg" alt="..." />
             <a id="about-me"></a>
             <h1 class="banner-header">MATTHEW PALMER</h1>
-            <h2>
-              Follow the journey of a visual artist trying his best to learn how to code.
-            </h2>
-            <p>
-              My name is Matt and i'm from the Midlands, I've spent the last 8 years of my life working as a photographer and cocktail bartender on the souch coast.
-              <br> I love music, inparticularly alternative rock & underground hip-hop. Coming from a background in the arts, I am looking to forge a career in web development. I am currently taking part in the University of Birmingham's coding bootcamp. 
-            </p>
-            
-        </a>
+            <h3> Full stack Web Developer
+            </h3>
         </div>
     </header>
 
- 
+<div class="card-block about-me-section text-center px-2">
+  <h2 class="m-4 rules-title"><a id= "about-me">About Me</a></h2>
+  <p class="m-4 about-text"><b>I'm a Mixologist, Amateur Botanist, Visual Artist, and Coding Bootcamp Student!!</b>
+
+    <p>I’m currently learning everything 🤣</p>
+    <p>I’m looking forward to completing The UoB Coding Bootcamp and entering the world of professional developing</p> 
+    <p>🥅 2022 Goals: Contribute more to Open Source projects</p>
+    <p>🪀 Fun fact: I like to collect whisky 🥃, rare plants 🍀 and retro video games 🕹️ </p>
+  
+                  <p>Want to know more? Find me on the platforms below! </p>
+                  <a href="https://www.linkedin.com/in/matthew-palmer-a13aab156/" class="btn btn-primary"><i class="fab fa-linkedin-in"></i> Linked In</a>  <a href="https://github.com/tigerbath" class="btn btn-primary"><i class="fab fa-github"></i> Github</a>
+              </div>
+          </div>
+      </div>
+</div>
+
 
         <!-- main section with flex box containing portfolio items -->
   <main>
-<a id="my-projects"></a>
+    <div class= "text-center m-4">
+<h1><a id="my-projects">My Projects</a></h1></div>
     <!--priority-card-->
 <a href="https://github.com/tigerbath/mobile_friendly_portfolio_app">
     <div class="priority-div">
@@ -84,65 +91,73 @@
 
     <!-- flex container -->
 
-<div class="centered"> 
-    <section class="cards">
-       
-       <!--/card-one -->
-        <article class="card"> 
-            <div><a href="#">
-                <img class="card-image" src="Assets/images/portfolio.png" alt="A portfolio">
-            </a>  
-            <h2>Online Portfolio</h2>           
-         <p>Building a online portfolio</p>
-            </div></article>
+    <div class="container">
+      <div class="row text-center">
+  
+          <!-- Password Generator -->
+          <div class="col-xl-3 col-sm-6 mb-5">
+              <div class="team-card bg-white rounded shadow-sm py-5 px-4"><img src="https://cdn-icons.flaticon.com/png/512/2665/premium/2665240.png?token=exp=1643299705~hmac=9385964883256eae4e83aace9a21efc3" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Password Generator</h5><span class="small text-muted"><b>HTML/JavaScript Application</b><br> Generates encrypted password for user.</span>
+                  <ul class="social mb-0 list-inline mt-3">
+                      <li class="list-inline-item"><a href="https://github.com/tigerbath/password_generator" class="social-link"><i class="fab fa-github"></i></a></li>
+                      <li class="list-inline-item"><a href="https://tigerbath.github.io/password_generator/" class="social-link"><i class="fas fa-globe"></i></a></li>
+                  </ul>
+              </div>
+          </div>
+  
+          <!-- Code Quiz -->
+          <div class="col-xl-3 col-sm-6 mb-5">
+              <div class="team-card bg-white rounded shadow-sm py-5 px-4"><img src="https://cdn-icons.flaticon.com/png/512/3407/premium/3407022.png?token=exp=1643299645~hmac=dc6ea7997062b0c7b8026655864e8167" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Code Quiz</h5><span class="small text-muted"><b>HTML/JavaScript Application</b><br> Deployed quiz game testing the users coding knowledge.</span>
+                  <ul class="social mb-0 list-inline mt-3">
+                      <li class="list-inline-item"><a href="https://github.com/tigerbath/coding-quiz" class="social-link"><i class="fab fa-github"></i></a></li>
+                      <li class="list-inline-item"><a href="https://tigerbath.github.io/coding-quiz" class="social-link"><i class="fas fa-globe"></i></a></li>
+                  </ul>
+              </div>
+          </div>
+  
+            <!-- Day Planner -->
+          <div class="col-xl-3 col-sm-6 mb-5">
+              <div class="team-card bg-white rounded shadow-sm py-5 px-4"><img src="https://cdn-icons.flaticon.com/png/512/3277/premium/3277431.png?token=exp=1643299623~hmac=f2792acbe205e63b77a58e97179c5a09" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Day Planner</h5><span class="small text-muted"><b>HTML/JavaScript Application</b><br> Deployed day planner, allowing the user to plan their day in real time.</span>
+                  <ul class="social mb-0 list-inline mt-3">
+                      <li class="list-inline-item"><a href="https://github.com/tigerbath/daily-planner" class="social-link"><i class="fab fa-github"></i></a></li>
+                      <li class="list-inline-item"><a href="https://tigerbath.github.io/daily-planner" class="social-link"><i class="fas fa-globe"></i></a></li>
+                  </ul>
+              </div>
+          </div>
+  
+            <!-- Weather Dashboard -->
+          <div class="col-xl-3 col-sm-6 mb-5">
+              <div class="team-card bg-white rounded shadow-sm py-5 px-4"><img src="https://cdn-icons.flaticon.com/png/512/3104/premium/3104619.png?token=exp=1643299592~hmac=aeb7ae1e4a801ba45c810fffa5ce85b4" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Weather Dashboard</h5><span class="small text-muted"><b>HTML/CSS/JavaScript Application</b><br> Deployed responsive weather station made using API calls</span>
+                  <ul class="social mb-0 list-inline mt-3">
+                      <li class="list-inline-item"><a href="https://github.com/tigerbath/weather-dashboard" class="social-link"><i class="fab fa-github"></i></a></li>
+                      <li class="list-inline-item"><a href="https://tigerbath.github.io/weather-dashboard" class="social-link"><i class="fas fa-globe"></i></a></li>
+                  </ul>
+              </div>
+          </div>
 
-    <!-- /card-two -->   
-<article class="card">
-    <div><a href="#">
-        <img src="Assets/images/padlock.jpg" alt="A padlock">
-    </a>
-    <h2>Password generator</h2>
-    <p>Making a password generator using Javascript</p>
-    </div></article>
-
-    <!-- /card-three -->    
-<article class="card">
-    <div><a href="#">
-        <img src="Assets/images/code quiz.png" alt="Quiz sheet">
-    </a>
-    <h2>Code Quiz</h2>
-    <p>Project description will be here soon!</p>
-    </div></article>
-
-    <!-- /card-four -->
-<article class="card">
-    <div><a href="#">
-        <img src="Assets/images/day planner.jpg" alt="Planner">
-    </a>
-    <h2>Day Planner</h2>
-    <p>Project description will be here soon!</p>
-       </div></article>
-
-    <!-- /card-five -->
-<article class="card">
-    <div><a href="#">
-        <img src="Assets/images/storm clouds.jpg" alt="Storm clouds">
-        </a>
-    <h2>Weather Dashboard</h2>
-    <p>Project description will be here soon!</p>
-    </div></article>
-
-    <!-- /card-six -->
-    <article class="card">
-        <div><a href="#">
-            <img src="Assets/images/tick.png" alt="Shiny portfolio">
-        </a>
-        <h2>Updated Portfolio Page</h2>
-        <p>Project description will be here soon!</p>
-    </article>
-</section>
-</div>
-  </main>
+           <!-- Good ReadMe Generator-->
+          <div class="col-xl-3 col-sm-6 mb-5">
+            <div class="team-card bg-white rounded shadow-sm py-5 px-4"><img src="https://cdn-icons.flaticon.com/png/512/2471/premium/2471120.png?token=exp=1643299553~hmac=6f88cfb01ec2e5f1115046827d61c623" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+              <h5 class="mb-0">ReadMe Generator</h5><span class="small text-muted"><b>Node.JS CMD Line Application.</b><br> Generates professional readme.md based on user inputs.</span>
+                <ul class="social mb-0 list-inline mt-3">
+                    <li class="list-inline-item"><a href="https://github.com/tigerbath/readme-generator" class="social-link"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+           
+        <!-- Team Profile Generator-->
+           <div class="col-xl-3 col-sm-6 mb-5">
+            <div class="team-card bg-white rounded shadow-sm py-5 px-4"><img src="https://cdn-icons.flaticon.com/png/512/2967/premium/2967475.png?token=exp=1643299670~hmac=e1724aa147e6870afaee5fd4a50a07eb" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Team Profile Generator</h5><span class="small text-muted"><b>Node.JS CMD Line Application.</b><br> Generates html page based on user inputs.</span>
+                <ul class="social mb-0 list-inline mt-3">
+                    <li class="list-inline-item"><a href="https://github.com/tigerbath/team-profiles-generator" class="social-link"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+  
     
   <!-- footer section -->
   <footer class="bg-dark text-light text-center text-lg-start">
